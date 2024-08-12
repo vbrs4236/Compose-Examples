@@ -57,7 +57,7 @@ CONTAINER ID   IMAGE                           COMMAND                  CREATED 
 Install your Wireguard client on an Apple device by downloading the wireguard app and scanning the QR Code.
 
 ### iOS
-<a href="https://apps.apple.com/de/app/wireguard/id1441195209"><img src="https://www.apple.com/de/itunes/link/images/link_badge_appstore_large_2x.png" height="55"></a>
+<a href="https://apps.apple.com/de/app/wireguard/id1441195209"><img src="https://developer.apple.com/app-store/marketing/guidelines/images/badge-example-preferred_2x.png" height="55"></a>
 
 Install your Wireguard client on an Apple device by downloading the wireguard app and scanning the QR Code.
 

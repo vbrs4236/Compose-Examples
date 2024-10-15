@@ -8,18 +8,22 @@ This project simulates AWS services such as S3, DynamoDB, and Lambda using Local
 
 ```plaintext
 .
-├── go.mod                           # Go module definitions
-├── go.sum                           # Go module dependencies
-├── lambda_examples                  # Directory containing Lambda examples
-│   ├── lambda_function_payload.zip  # Zipped Python Lambda function
-│   └── lambda_function.py           # Python Lambda function source code
-├── main.go                          # Main entry point for the Go API
-├── README.md                        # Project README file
-├── services                         # Go services for interacting with AWS services
-│   ├── dyndb.go                     # DynamoDB service implementation
-│   ├── file_upload.go               # S3 file upload service
-│   └── lambda_handler.go            # Lambda invocation service
-└── testfile.txt                     # Test file for upload
+├── docker-compose.yaml               # Docker Compose file to start LocalStack and the Golang app
+├── Dockerfile                        # Dockerfile for building the Golang app container
+├── go.mod                            # Go module definitions
+├── go.sum                            # Go module dependencies
+├── lambda_examples                   # Directory containing Lambda examples
+│   ├── lambda_function_payload.zip   # Zipped Python Lambda function
+│   └── lambda_function.py            # Python Lambda function source code
+├── main.go                           # Main entry point for the Go API
+├── README.md                         # Project README file
+├── services                          # Go services for interacting with AWS services
+│   ├── dyndb.go                      # DynamoDB service implementation
+│   ├── file_upload.go                # S3 file upload service
+│   └── lambda_handler.go             # Lambda invocation service
+└── testfile.txt                      # Test file for upload
+
+2 directories, 12 files
 ```
 
 ### _compose.yaml_
